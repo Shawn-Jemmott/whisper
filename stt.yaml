@@ -41,7 +41,7 @@ spec:
       containers:
         - name: whisper
           imagePullPolicy: IfNotPresent
-          image: jaseci/jac-speech:1.4.0.7
+          image: jaseci/jac-speech:1.4.0.13
           resources:
             requests:
               memory: "3Gi"
