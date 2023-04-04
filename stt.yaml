@@ -19,7 +19,7 @@ metadata:
   namespace: default
 data:
   prod_up: |-
-    apt-get install -y libsndfile1 libsndfile-dev
+    apt-get install -y libsndfile1 libsndfile-dev ffmpeg
     pip install -U soundfile
     uvicorn jac_speech.stt:serv_actions --host 0.0.0.0 --port 80
 ---
